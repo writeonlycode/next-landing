@@ -65,3 +65,17 @@ Once the deployment is complete, your landing page will be live at the URL
 provided by Vercel.
 
 Thank you for choosing this landing page project!
+
+
+## Screenshots
+
+![Hero Section Screenshot](https://github.com/writeonlycode/next-landing/raw/main/src/screenshots/next-landing-desktop-navbar-hero.png)
+
+![History Section Screenshot](https://github.com/writeonlycode/next-landing/raw/main/src/screenshots/next-landing-desktop-history.png)
+
+![About Section Screenshot](https://github.com/writeonlycode/next-landing/raw/main/src/screenshots/next-landing-desktop-about.png)
+
+![Services Section Screenshot](https://github.com/writeonlycode/next-landing/raw/main/src/screenshots/next-landing-desktop-services.png)
+
+![Footer Section Screenshot](https://github.com/writeonlycode/next-landing/raw/main/src/screenshots/next-landing-desktop-footer.png)
+
