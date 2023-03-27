@@ -17,6 +17,13 @@ businesses seeking to establish an online presence.
 Screenshot](https://github.com/writeonlycode/next-landing/raw/main/src/screenshots/next-landing-desktop-navbar-hero.png)
 
 
+## Demo Website
+
+To see a live demo of the Next Landing website, please visit
+https://next-landing-blue.vercel.app/. Please note that this is a demo website
+and not a official website. If you have any questions or feedback, please feel
+free to contact us!
+
 ## Project Setup
 
 1. Clone the repository.
