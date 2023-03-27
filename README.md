@@ -1,38 +1,64 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Next Landing
 
-## Getting Started
+This is a landing page project built with Next.js, designed to provide small
+businesses with a clean and professional online presence. The landing page is
+easily customizable and can be configured using YAML files, making it simple to
+update and maintain.
 
-First, run the development server:
+Next.js is a powerful framework that offers many advantages, including easy
+setup, optimized performance, built-in SEO support, and high customizability
+and extensibility. Additionally, the landing page uses static site generation,
+resulting in faster load times, improved SEO, and reduced server load.
+
+We believe this landing page project will be a valuable asset for small
+businesses seeking to establish an online presence.
+
+
+## Project Setup
+
+1. Clone the repository.
+2. Install dependencies by running `npm install`.
+3. Configure the title and metatags of the website using the
+   `/config/config.yaml` file.
+4. Configure the menu with the `/config/menu.yaml` file.
+5. Configure the content of the sections of the landing page by editing the
+   YAML files inside the `/data` directory.
+
+
+## Running Locally
+
+To run the development version of the landing page locally, use the following
+command:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+This will start the development server at `http://localhost:3000/`.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+To run the production version of the landing page locally, use the following
+commands:
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+```bash
+npm run build
+npm run start
+```
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+This will build the production version of the landing page and start the server
+at `http://localhost:3000/`.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
+## Deploying to Vercel
 
-To learn more about Next.js, take a look at the following resources:
+To deploy the landing page to Vercel, follow these steps:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. Create an account on Vercel.
+2. Install the Vercel CLI by running `npm install -g vercel`.
+3. Run `vercel login` and follow the prompts to authenticate your account.
+4. Run `vercel` to deploy the project to Vercel.
+5. Follow the prompts to configure your deployment settings.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Once the deployment is complete, your landing page will be live at the URL
+provided by Vercel.
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Thank you for choosing this landing page project!
