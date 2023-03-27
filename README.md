@@ -13,6 +13,9 @@ resulting in faster load times, improved SEO, and reduced server load.
 We believe this landing page project will be a valuable asset for small
 businesses seeking to establish an online presence.
 
+![Next Landing Hero
+Screenshot](https://github.com/writeonlycode/next-landing/raw/main/src/screenshots/next-landing-desktop-navbar-hero.png)
+
 
 ## Project Setup
 
