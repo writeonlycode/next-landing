@@ -10,6 +10,7 @@ export default function Hero({ data }: { data: heroData }) {
         className="object-cover object-center -z-10"
         sizes="100vw"
         fill
+        priority
       />
       <div className="lg:max-w-screen-lg container mx-auto px-8 h-full">
         <div className="flex items-center justify-end h-full">
