@@ -11,7 +11,15 @@ import About from "@/components/about";
 import Services from "@/components/services";
 import Footer from "@/components/footer";
 
-export default function Home({ config, menu, data, }: { config: siteConfig; menu: siteMenu; data: siteData; }) {
+export default function Home({
+  config,
+  menu,
+  data,
+}: {
+  config: siteConfig;
+  menu: siteMenu;
+  data: siteData;
+}) {
   return (
     <>
       <Head>

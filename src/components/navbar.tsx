@@ -22,7 +22,7 @@ export default function Navbar({ menu }: { menu: siteMenu }) {
 
   const menuItems = menu.map((item) => {
     return (
-      <span key={item.name} className="text-feldgrau text-center font-light uppercase mx-4 my-2 px-4" >
+      <span key={item.name} className="text-isabelline text-center font-light uppercase mx-4 my-2 px-4" >
         <Link href={item.link} onClick={() => setShow(false)} >{item.name}</Link>
       </span>
     );
@@ -48,7 +48,7 @@ export default function Navbar({ menu }: { menu: siteMenu }) {
   );
 
   return (
-    <header className="flex flex-col justify-center backdrop-blur bg-isabelline/75 sticky -top-8 inset-x-0 h-24 z-10">
+    <header className="flex flex-col justify-center backdrop-blur bg-black/50 sticky -top-8 inset-x-0 h-24 z-10">
       <nav className="flex flex-col justify-center sticky top-0 h-16">
         {mobileMenu}
         {desktopMenu}
