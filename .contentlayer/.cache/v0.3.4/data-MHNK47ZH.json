@@ -1,0 +1,162 @@
+{
+  "cacheItemsMap": {
+    "config/menu.yaml": {
+      "document": {
+        "entries": [
+          {
+            "label": "Home",
+            "link": "/",
+            "type": "Link",
+            "_raw": {}
+          },
+          {
+            "label": "History",
+            "link": "#history",
+            "type": "Link",
+            "_raw": {}
+          },
+          {
+            "label": "About",
+            "link": "#about",
+            "type": "Link",
+            "_raw": {}
+          },
+          {
+            "label": "Services",
+            "link": "#services",
+            "type": "Link",
+            "_raw": {}
+          },
+          {
+            "label": "Contact",
+            "link": "/contact",
+            "type": "Link",
+            "_raw": {}
+          }
+        ],
+        "_id": "config/menu.yaml",
+        "_raw": {
+          "sourceFilePath": "config/menu.yaml",
+          "sourceFileName": "menu.yaml",
+          "sourceFileDir": "config",
+          "contentType": "data",
+          "flattenedPath": "config/menu"
+        },
+        "type": "Menu"
+      },
+      "documentHash": "1691646793467",
+      "hasWarnings": false,
+      "documentTypeName": "Menu"
+    },
+    "config/site.yaml": {
+      "document": {
+        "title": "Clarity Optics",
+        "description": "Our store is all about helping customers see the world with perfect clarity. From prescription glasses and contact lenses to sunglasses and sports goggles, we have everything you need to enhance your vision and protect your eyes.\n",
+        "baseUrl": "/",
+        "languageCode": "en",
+        "_id": "config/site.yaml",
+        "_raw": {
+          "sourceFilePath": "config/site.yaml",
+          "sourceFileName": "site.yaml",
+          "sourceFileDir": "config",
+          "contentType": "data",
+          "flattenedPath": "config/site"
+        },
+        "type": "Site"
+      },
+      "documentHash": "1691646272109",
+      "hasWarnings": false,
+      "documentTypeName": "Site"
+    },
+    "data/about.yaml": {
+      "document": {
+        "pretitle": "Your Vision is Our Priority",
+        "title": "About Clarity Optics",
+        "text": "At Clarity Optics, we believe that clear, healthy vision is essential to living your best life. That's why we've built our practice around providing exceptional eye care services and high-quality eyewear to our community.\n",
+        "image": "/assets/images/about-bud-helisson.png",
+        "brands": {
+          "title": "Our Trusted Partners in Vision",
+          "items": [
+            {
+              "label": "Moscot Logo",
+              "image": "/assets/images/about-moscot.png",
+              "type": "Brand",
+              "_raw": {}
+            },
+            {
+              "label": "Oliver Peoples Logo",
+              "image": "/assets/images/about-oliver-peoples.png",
+              "type": "Brand",
+              "_raw": {}
+            },
+            {
+              "label": "raiban Logo",
+              "image": "/assets/images/about-raiban.png",
+              "type": "Brand",
+              "_raw": {}
+            },
+            {
+              "label": "Tom Ford Logo",
+              "image": "/assets/images/about-tom-ford.png",
+              "type": "Brand",
+              "_raw": {}
+            }
+          ],
+          "type": "Brands",
+          "_raw": {}
+        },
+        "_id": "data/about.yaml",
+        "_raw": {
+          "sourceFilePath": "data/about.yaml",
+          "sourceFileName": "about.yaml",
+          "sourceFileDir": "data",
+          "contentType": "data",
+          "flattenedPath": "data/about"
+        },
+        "type": "About"
+      },
+      "documentHash": "1691648055076",
+      "hasWarnings": false,
+      "documentTypeName": "About"
+    },
+    "data/hero.yaml": {
+      "document": {
+        "title": "Clarity Optics",
+        "lead": "Enhancing your vision and your life",
+        "backgroundImage": "/assets/images/hero-verticz-squencz.png",
+        "_id": "data/hero.yaml",
+        "_raw": {
+          "sourceFilePath": "data/hero.yaml",
+          "sourceFileName": "hero.yaml",
+          "sourceFileDir": "data",
+          "contentType": "data",
+          "flattenedPath": "data/hero"
+        },
+        "type": "Hero"
+      },
+      "documentHash": "1691647437948",
+      "hasWarnings": false,
+      "documentTypeName": "Hero"
+    },
+    "data/history.yaml": {
+      "document": {
+        "pretitle": "Discover the Power of Perfect Vision",
+        "title": "Enhancing Your Life Through Vision",
+        "text": "Established in 2005, Clarity Optics has been providing premium eye care services and high-quality eyewear to the local community for over 15 years. With a team of experienced optometrists and opticians, we offer comprehensive eye exams, personalized fittings, and a wide selection of frames and lenses to help our customers see clearly and feel confident in their glasses.\n",
+        "image": "/assets/images/history-jaron-nix.png",
+        "_id": "data/history.yaml",
+        "_raw": {
+          "sourceFilePath": "data/history.yaml",
+          "sourceFileName": "history.yaml",
+          "sourceFileDir": "data",
+          "contentType": "data",
+          "flattenedPath": "data/history"
+        },
+        "type": "History"
+      },
+      "documentHash": "1691647746469",
+      "hasWarnings": false,
+      "documentTypeName": "History"
+    }
+  }
+}

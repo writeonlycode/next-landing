@@ -1,7 +1,7 @@
+import { Hero } from "contentlayer/generated";
 import Image from "next/image";
-import { heroData } from "@/lib/data";
 
-export default function Hero({ data }: { data: heroData }) {
+export default function HeroSection({ data }: { data: Hero }) {
   return (
     <section className="h-screen -mt-24 pt-36 pb-12 relative">
       <Image

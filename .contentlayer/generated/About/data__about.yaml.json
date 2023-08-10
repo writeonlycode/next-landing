@@ -1,0 +1,46 @@
+{
+  "pretitle": "Your Vision is Our Priority",
+  "title": "About Clarity Optics",
+  "text": "At Clarity Optics, we believe that clear, healthy vision is essential to living your best life. That's why we've built our practice around providing exceptional eye care services and high-quality eyewear to our community.\n",
+  "image": "/assets/images/about-bud-helisson.png",
+  "brands": {
+    "title": "Our Trusted Partners in Vision",
+    "items": [
+      {
+        "label": "Moscot Logo",
+        "image": "/assets/images/about-moscot.png",
+        "type": "Brand",
+        "_raw": {}
+      },
+      {
+        "label": "Oliver Peoples Logo",
+        "image": "/assets/images/about-oliver-peoples.png",
+        "type": "Brand",
+        "_raw": {}
+      },
+      {
+        "label": "raiban Logo",
+        "image": "/assets/images/about-raiban.png",
+        "type": "Brand",
+        "_raw": {}
+      },
+      {
+        "label": "Tom Ford Logo",
+        "image": "/assets/images/about-tom-ford.png",
+        "type": "Brand",
+        "_raw": {}
+      }
+    ],
+    "type": "Brands",
+    "_raw": {}
+  },
+  "_id": "data/about.yaml",
+  "_raw": {
+    "sourceFilePath": "data/about.yaml",
+    "sourceFileName": "about.yaml",
+    "sourceFileDir": "data",
+    "contentType": "data",
+    "flattenedPath": "data/about"
+  },
+  "type": "About"
+}

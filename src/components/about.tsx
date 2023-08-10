@@ -1,13 +1,13 @@
+import { About } from "contentlayer/generated";
 import Image from "next/image";
-import {aboutData} from "@/lib/data";
 
-export default function About({ data }: { data: aboutData }) {
-  const brands = data.brands.items.map((item) => {
+export default function AboutSection({ data }: { data: About }) {
+  const brands = data.brands.items.map((brand) => {
     return (
-      <span key={item.name} className="m-4 relative h-16 grow">
+      <span key={brand.label} className="m-4 relative h-16 grow">
         <Image
-          src={item.image}
-          alt={item.name}
+          src={brand.image}
+          alt={brand.label}
           className="object-contain"
           sizes="(max-width: 1024px) 100vw, (max-width: 1536px) 50vw, 33vw"
           fill

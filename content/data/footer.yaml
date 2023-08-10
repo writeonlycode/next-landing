@@ -1,0 +1,40 @@
+type: "Footer"
+
+menu:
+  title: "Menu"
+  entries:
+    - label: "History"
+      link: "#history"
+
+    - label: "About"
+      link: "#about"
+
+    - label: "Services"
+      link: "#services"
+
+hours:
+  title: "Hours"
+  entries:
+    - label: "Monday-Friday<br/>9:30-12:30 and 14:30-18:30"
+    - label: "Saturday<br/>9:30-17:30"
+
+location:
+  title: "Location"
+  entries:
+    - label: "2932 Pleasant Hill Rd, Kissimmee, Florida"
+
+    - label: "Open with Google Maps →"
+      link: "https://goo.gl/maps/ZGYU7TiV3TK7Uitc6"
+      blank: true
+
+copyright:
+  entries:
+    - label: "Copyright © 2023 Clarity Optics. All rights reserved."
+
+    - label: "Next.JS Theme by Iago Bozza."
+      link: "https://github.com/writeonlycode/next-landing"
+      blank: true
+
+    - label: "Original Design by Michael Martinelli."
+      link: "https://www.figma.com/community/file/1079464538758466856"
+      blank: true

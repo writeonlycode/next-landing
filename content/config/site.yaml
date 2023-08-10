@@ -1,6 +1,11 @@
+type: Site
+
 title: "Clarity Optics"
 description: >
   Our store is all about helping customers see the world with perfect clarity.
   From prescription glasses and contact lenses to sunglasses and sports
   goggles, we have everything you need to enhance your vision and protect your
   eyes.
+
+baseUrl: "/"
+languageCode: "en"

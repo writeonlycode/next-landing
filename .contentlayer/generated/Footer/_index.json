@@ -1,0 +1,97 @@
+{
+  "menu": {
+    "title": "Menu",
+    "entries": [
+      {
+        "label": "History",
+        "link": "#history",
+        "type": "Link",
+        "_raw": {}
+      },
+      {
+        "label": "About",
+        "link": "#about",
+        "type": "Link",
+        "_raw": {}
+      },
+      {
+        "label": "Services",
+        "link": "#services",
+        "type": "Link",
+        "_raw": {}
+      }
+    ],
+    "type": "Menu",
+    "_raw": {}
+  },
+  "hours": {
+    "title": "Hours",
+    "entries": [
+      {
+        "label": "Monday-Friday<br/>9:30-12:30 and 14:30-18:30",
+        "type": "Link",
+        "_raw": {}
+      },
+      {
+        "label": "Saturday<br/>9:30-17:30",
+        "type": "Link",
+        "_raw": {}
+      }
+    ],
+    "type": "Menu",
+    "_raw": {}
+  },
+  "location": {
+    "title": "Location",
+    "entries": [
+      {
+        "label": "2932 Pleasant Hill Rd, Kissimmee, Florida",
+        "type": "Link",
+        "_raw": {}
+      },
+      {
+        "label": "Open with Google Maps →",
+        "link": "https://goo.gl/maps/ZGYU7TiV3TK7Uitc6",
+        "blank": true,
+        "type": "Link",
+        "_raw": {}
+      }
+    ],
+    "type": "Menu",
+    "_raw": {}
+  },
+  "copyright": {
+    "entries": [
+      {
+        "label": "Copyright © 2023 Clarity Optics. All rights reserved.",
+        "type": "Link",
+        "_raw": {}
+      },
+      {
+        "label": "Next.JS Theme by Iago Bozza.",
+        "link": "https://github.com/writeonlycode/next-landing",
+        "blank": true,
+        "type": "Link",
+        "_raw": {}
+      },
+      {
+        "label": "Original Design by Michael Martinelli.",
+        "link": "https://www.figma.com/community/file/1079464538758466856",
+        "blank": true,
+        "type": "Link",
+        "_raw": {}
+      }
+    ],
+    "type": "Menu",
+    "_raw": {}
+  },
+  "_id": "data/footer.yaml",
+  "_raw": {
+    "sourceFilePath": "data/footer.yaml",
+    "sourceFileName": "footer.yaml",
+    "sourceFileDir": "data",
+    "contentType": "data",
+    "flattenedPath": "data/footer"
+  },
+  "type": "Footer"
+}

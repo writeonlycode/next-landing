@@ -1,0 +1,13 @@
+type: Menu
+entries:
+  - label: "Home"
+    link: "/"
+
+  - label: "History"
+    link: "#history"
+
+  - label: "About"
+    link: "#about"
+
+  - label: "Services"
+    link: "#services"

@@ -1,94 +1,119 @@
+import { Footer, Link as MenuLink } from "contentlayer/generated";
 import Link from "next/link";
-import { footerData } from "@/lib/data";
 
-export default function Footer({ data }: { data: footerData }) {
-  const menuItems = data.menu.items.map((item) => {
-    if (item.link) {
-      return (
-        <li key={item.name} className="mb-4">
-          <Link
-            target={item.newWindow ? "_blank" : ""}
-            href={item.link}
-            className="underline"
-          >
-            {item.name}
-          </Link>
-        </li>
-      );
-    } else {
-      return (
-        <li key={item.name} className="mb-4">
-          <span dangerouslySetInnerHTML={{ __html: item.name }} />
-        </li>
-      );
-    }
-  });
+export default function FooterSection({ data }: { data: Footer }) {
 
-  const hoursItems = data.hours.items.map((item) => {
-    if (item.link) {
-      return (
-        <li key={item.name} className="mb-4">
-          <Link
-            target={item.newWindow ? "_blank" : ""}
-            href={item.link}
-            className="underline"
-          >
-            {item.name}
-          </Link>
-        </li>
-      );
-    } else {
-      return (
-        <li key={item.name} className="mb-4">
-          <span dangerouslySetInnerHTML={{ __html: item.name }} />
-        </li>
-      );
-    }
-  });
+  const generateMenu = (entries: MenuLink[]) => {
+    return entries.map((entry: MenuLink) => {
+      if (entry.link) {
+        return (
+          <li key={entry.label} className="mb-4">
+            <Link
+              target={entry.blank ? "_blank" : ""}
+              href={entry.link}
+              className="underline"
+            >
+              {entry.label}
+            </Link>
+          </li>
+        );
+      } else {
+        return (
+          <li key={entry.label} className="mb-4">
+            <span dangerouslySetInnerHTML={{ __html: entry.label }} />
+          </li>
+        );
+      }
+    });
+  };
 
-  const locationItems = data.location.items.map((item) => {
-    if (item.link) {
-      return (
-        <li key={item.name} className="mb-4">
-          <Link
-            target={item.newWindow ? "_blank" : ""}
-            href={item.link}
-            className="underline"
-          >
-            {item.name}
-          </Link>
-        </li>
-      );
-    } else {
-      return (
-        <li key={item.name} className="mb-4">
-          <span dangerouslySetInnerHTML={{ __html: item.name }} />
-        </li>
-      );
-    }
-  });
+  // const menuItems = data.menu.entries.map((entry) => {
+  //   if (entry.link) {
+  //     return (
+  //       <li key={entry.label} className="mb-4">
+  //         <Link
+  //           target={entry.blank ? "_blank" : ""}
+  //           href={entry.link}
+  //           className="underline"
+  //         >
+  //           {entry.label}
+  //         </Link>
+  //       </li>
+  //     );
+  //   } else {
+  //     return (
+  //       <li key={entry.label} className="mb-4">
+  //         <span dangerouslySetInnerHTML={{ __html: entry.label }} />
+  //       </li>
+  //     );
+  //   }
+  // });
 
-  const copyrightItems = data.copyright.items.map((item) => {
-    if (item.link) {
-      return (
-        <p key={item.name}>
-          <Link
-            target={item.newWindow ? "_blank" : ""}
-            href={item.link}
-            className="underline"
-          >
-            {item.name}
-          </Link>
-        </p>
-      );
-    } else {
-      return (
-        <p key={item.name}>
-          <span dangerouslySetInnerHTML={{ __html: item.name }} />
-        </p>
-      );
-    }
-  });
+  // const hoursItems = data.hours.entries.map((entry) => {
+  //   if (entry.link) {
+  //     return (
+  //       <li key={entry.label} className="mb-4">
+  //         <Link
+  //           target={entry.blank ? "_blank" : ""}
+  //           href={entry.link}
+  //           className="underline"
+  //         >
+  //           {entry.label}
+  //         </Link>
+  //       </li>
+  //     );
+  //   } else {
+  //     return (
+  //       <li key={entry.label} className="mb-4">
+  //         <span dangerouslySetInnerHTML={{ __html: entry.label }} />
+  //       </li>
+  //     );
+  //   }
+  // });
+
+  // const locationItems = data.location.entries.map((entry) => {
+  //   if (entry.link) {
+  //     return (
+  //       <li key={entry.label} className="mb-4">
+  //         <Link
+  //           target={entry.blank ? "_blank" : ""}
+  //           href={entry.link}
+  //           className="underline"
+  //         >
+  //           {entry.label}
+  //         </Link>
+  //       </li>
+  //     );
+  //   } else {
+  //     return (
+  //       <li key={entry.label} className="mb-4">
+  //         <span dangerouslySetInnerHTML={{ __html: entry.label }} />
+  //       </li>
+  //     );
+  //   }
+  // });
+
+  // const copyrightItems = data.copyright.entries.map((entry) => {
+  //   if (entry.link) {
+  //     return (
+  //       <p key={entry.label}>
+  //         <Link
+  //           target={entry.blank ? "_blank" : ""}
+  //           href={entry.link}
+  //           className="underline"
+  //         >
+  //           {entry.label}
+  //         </Link>
+  //       </p>
+  //     );
+  //   } else {
+  //     return (
+  //       <p key={entry.label}>
+  //         <span dangerouslySetInnerHTML={{ __html: entry.label }} />
+  //       </p>
+  //     );
+  //   }
+  // });
 
   return (
     <section className="bg-feldgrau text-saltpan pt-20 pb-10">
@@ -100,26 +125,28 @@ export default function Footer({ data }: { data: footerData }) {
           <div className="flex justify-center lg:w-4/12">
             <div className="text-center lg:text-left mb-8 lg:mb-0">
               <h2 className="font-bold text-2xl mb-4">{data.menu.title}</h2>
-              <ul className="">{menuItems}</ul>
+              <ul className="">{generateMenu(data.menu.entries)}</ul>
             </div>
           </div>
           {/* Column */}
           <div className="flex justify-center lg:w-4/12">
             <div className="text-center lg:text-left mb-8 lg:mb-0">
               <h2 className="font-bold text-2xl mb-4">{data.hours.title}</h2>
-              <ul className="">{hoursItems}</ul>
+              <ul className="">{generateMenu(data.hours.entries)}</ul>
             </div>
           </div>
           {/* Column */}
           <div className="flex justify-center lg:w-4/12">
             <div className="text-center lg:text-left mb-8 lg:mb-0">
               <h2 className="font-bold text-2xl mb-4">{data.location.title}</h2>
-              <ul className="">{locationItems}</ul>
+              <ul className="">{generateMenu(data.location.entries)}</ul>
             </div>
           </div>
         </div>
         {/* Row */}
-        <div className="text-center text-sm">{copyrightItems}</div>
+        <div className="text-center text-sm">
+          {generateMenu(data.copyright.entries)}
+        </div>
       </div>
     </section>
   );

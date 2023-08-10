@@ -1,0 +1,14 @@
+{
+  "title": "Clarity Optics",
+  "lead": "Enhancing your vision and your life",
+  "backgroundImage": "/assets/images/hero-verticz-squencz.png",
+  "_id": "data/hero.yaml",
+  "_raw": {
+    "sourceFilePath": "data/hero.yaml",
+    "sourceFileName": "hero.yaml",
+    "sourceFileDir": "data",
+    "contentType": "data",
+    "flattenedPath": "data/hero"
+  },
+  "type": "Hero"
+}

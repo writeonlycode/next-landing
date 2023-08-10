@@ -1,7 +1,7 @@
+import { Services } from "contentlayer/generated";
 import Image from "next/image";
-import { servicesData } from "@/lib/data";
 
-export default function Services({ data }: { data: servicesData }) {
+export default function ServicesSeciton({ data }: { data: Services }) {
   return (
     <section className="py-40" id="services">
       <div className="lg:max-w-screen-lg container mx-auto px-8 h-full">

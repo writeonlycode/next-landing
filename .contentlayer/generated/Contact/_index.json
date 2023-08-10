@@ -1,0 +1,14 @@
+{
+  "pretitle": "",
+  "title": "Contact",
+  "text": "",
+  "_id": "data/contact.yaml",
+  "_raw": {
+    "sourceFilePath": "data/contact.yaml",
+    "sourceFileName": "contact.yaml",
+    "sourceFileDir": "data",
+    "contentType": "data",
+    "flattenedPath": "data/contact"
+  },
+  "type": "Contact"
+}

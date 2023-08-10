@@ -1,0 +1,37 @@
+{
+  "entries": [
+    {
+      "label": "Home",
+      "link": "/",
+      "type": "Link",
+      "_raw": {}
+    },
+    {
+      "label": "History",
+      "link": "#history",
+      "type": "Link",
+      "_raw": {}
+    },
+    {
+      "label": "About",
+      "link": "#about",
+      "type": "Link",
+      "_raw": {}
+    },
+    {
+      "label": "Services",
+      "link": "#services",
+      "type": "Link",
+      "_raw": {}
+    }
+  ],
+  "_id": "config/menu.yaml",
+  "_raw": {
+    "sourceFilePath": "config/menu.yaml",
+    "sourceFileName": "menu.yaml",
+    "sourceFileDir": "config",
+    "contentType": "data",
+    "flattenedPath": "config/menu"
+  },
+  "type": "Menu"
+}

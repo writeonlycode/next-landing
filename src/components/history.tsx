@@ -1,7 +1,7 @@
+import { History } from "contentlayer/generated";
 import Image from "next/image";
-import {historyData} from "@/lib/data";
 
-export default function History({ data }: { data: historyData }) {
+export default function HistorySection({ data }: { data: History }) {
   return (
     <section className="py-40" id="history">
       <div className="lg:max-w-screen-lg container mx-auto px-8 h-full">
