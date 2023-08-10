@@ -13,8 +13,7 @@ resulting in faster load times, improved SEO, and reduced server load.
 We believe this landing page project will be a valuable asset for small
 businesses seeking to establish an online presence.
 
-![Next Landing Hero
-Screenshot](https://github.com/writeonlycode/next-landing/raw/main/src/screenshots/next-landing-desktop-navbar-hero.png)
+![Next Landing Hero Screenshot](https://github.com/writeonlycode/next-landing/raw/main/src/screenshots/next-landing-desktop-navbar-hero.png)
 
 
 ## Demo Website
@@ -85,4 +84,6 @@ Thank you for choosing this landing page project!
 ![Services Section Screenshot](https://github.com/writeonlycode/next-landing/raw/main/src/screenshots/next-landing-desktop-services.png)
 
 ![Footer Section Screenshot](https://github.com/writeonlycode/next-landing/raw/main/src/screenshots/next-landing-desktop-footer.png)
+
+![Lighthouse Score Screenshot](https://github.com/writeonlycode/next-landing/raw/main/src/screenshots/next-landing-desktop-lighthouse.png)
 
