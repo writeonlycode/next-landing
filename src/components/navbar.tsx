@@ -53,9 +53,13 @@ export default function Navbar({ menu }: { menu: Menu }) {
         key={item.label}
         className="text-isabelline text-center font-light uppercase mx-4 my-2 px-4"
       >
-        <Link href={item.link} onClick={() => setShow(false)}>
-          {item.label}
-        </Link>
+        {item.link ? (
+          <Link href={item.link} onClick={() => setShow(false)}>
+            {item.label}
+          </Link>
+        ) : (
+          <span onClick={() => setShow(false)}>{item.label}</span>
+        )}
       </span>
     );
   });
